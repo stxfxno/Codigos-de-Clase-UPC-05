@@ -1,0 +1,6 @@
+@DemoRESTWS_HostAddress = http://localhost:5219
+
+GET {{DemoRESTWS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
