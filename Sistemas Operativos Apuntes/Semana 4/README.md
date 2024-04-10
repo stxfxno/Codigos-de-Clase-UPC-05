@@ -64,115 +64,33 @@ Recuerda adaptar los comandos según la distribución específica de Linux que e
 
 ###CLASE 2
 
-### Por Tareas
+Claro, aquí está la información organizada en una tabla en formato markdown:
 
-**SO - Monotareas**
-- *Característica*: Permite ejecutar una sola tarea a la vez.
-- *Ejemplos*:
-  - MS-DOS
-  - CP/M
-  - SOS (Sophisticated Operating System)
-  - RT-11
-  - TOPS-10
+| **Por Tareas**         | **Característica**                                       | **Ejemplos**                                       |
+|------------------------|----------------------------------------------------------|----------------------------------------------------|
+| **SO - Monotareas**    | Permite ejecutar una sola tarea a la vez.                | MS-DOS, CP/M, SOS (Sophisticated Operating System), RT-11, TOPS-10 |
+| **SO - Multitareas**   | Permite la ejecución simultánea de múltiples tareas.     | Windows, macOS, Linux, Unix, Android               |
 
-**SO - Multitareas**
-- *Característica*: Permite la ejecución simultánea de múltiples tareas.
-- *Ejemplos*:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - Android
+<hr>
 
-### Por Usuarios
+| **Por Usuarios**       | **Característica**                                       | **Ejemplos**                                       |
+|------------------------|----------------------------------------------------------|----------------------------------------------------|
+| **SO - Monousuarios**  | Diseñado para un solo usuario.                           | MS-DOS, Windows 3.1, Macintosh System Software, Classic Mac OS, Palm OS |
+| **SO - Multiusuarios**  | Permite múltiples usuarios simultáneamente.              | Unix, Linux, Windows Server, macOS Server, AIX      |
 
-**SO - Monousuarios**
-- *Característica*: Diseñado para un solo usuario.
-- *Ejemplos*:
-  - MS-DOS
-  - Windows 3.1
-  - Macintosh System Software
-  - Classic Mac OS
-  - Palm OS
+<hr>
 
-**SO - Multiusuarios**
-- *Característica*: Permite múltiples usuarios simultáneamente.
-- *Ejemplos*:
-  - Unix
-  - Linux
-  - Windows Server
-  - macOS Server
-  - AIX
+| **Por Hardware**       | **Característica**                                       | **Ejemplos**                                       |
+|------------------------|----------------------------------------------------------|----------------------------------------------------|
+| **Mainframe**          | Potente y diseñado para manejar grandes cantidades de datos. | IBM z/OS, Unisys MCP, Fujitsu BS2000, Hitachi VOS3, NEC ACOS |
+| **Servidor**           | Proporciona servicios a otras computadoras en la red.    | Windows Server, Linux (como servidor), Apache HTTP Server, Nginx, Microsoft Exchange Server |
+| **Supercomputadora**   | Alto rendimiento para cálculos científicos intensivos.   | IBM Summit, Fujitsu Fugaku, Cray XC40, HP Apollo, Tianhe-2 |
+| **SO de Tiempo Real**  | Responde a entradas dentro de un límite de tiempo definido. | VxWorks, QNX, FreeRTOS, RTLinux, Windows Embedded Compact |
+| **SO de Computador Personal** | Diseñado para uso en computadoras personales.         | Windows, macOS, Linux (distros de escritorio), Chrome OS, Ubuntu |
+| **SO Embedded**        | Integrado en dispositivos específicos (incorporado).    | Android, iOS, Windows Embedded, Embedded Linux, VxWorks |
+| **SO de Tarjeta**      | Sistema operativo implementado en tarjetas embebidas.   | Arduino OS, MicroPython, Mbed OS, FreeRTOS (para microcontroladores), Contiki |
 
-### Por Hardware
-
-**Mainframe**
-- *Característica*: Potente y diseñado para manejar grandes cantidades de datos.
-- *Ejemplos*:
-  - IBM z/OS
-  - Unisys MCP
-  - Fujitsu BS2000
-  - Hitachi VOS3
-  - NEC ACOS
-
-**Servidor**
-- *Característica*: Proporciona servicios a otras computadoras en la red.
-- *Ejemplos*:
-  - Windows Server
-  - Linux (como servidor)
-  - Apache HTTP Server
-  - Nginx
-  - Microsoft Exchange Server
-
-**Supercomputadora**
-- *Característica*: Alto rendimiento para cálculos científicos intensivos.
-- *Ejemplos*:
-  - IBM Summit
-  - Fujitsu Fugaku
-  - Cray XC40
-  - HP Apollo
-  - Tianhe-2
-
-**SO de Tiempo Real**
-- *Característica*: Responde a entradas dentro de un límite de tiempo definido.
-- *Ejemplos*:
-  - VxWorks
-  - QNX
-  - FreeRTOS
-  - RTLinux
-  - Windows Embedded Compact
-
-**SO de Computador Personal**
-- *Característica*: Diseñado para uso en computadoras personales.
-- *Ejemplos*:
-  - Windows
-  - macOS
-  - Linux (distros de escritorio)
-  - Chrome OS
-  - Ubuntu
-
-**SO Embedded**
-- *Característica*: Integrado en dispositivos específicos (incorporado).
-- *Ejemplos*:
-  - Android
-  - iOS
-  - Windows Embedded
-  - Embedded Linux
-  - VxWorks
-
-**SO de Tarjeta**
-- *Característica*: Sistema operativo implementado en tarjetas embebidas.
-- *Ejemplos*:
-  - Arduino OS
-  - MicroPython
-  - Mbed OS
-  - FreeRTOS (para microcontroladores)
-  - Contiki
-
-Este formato markdown debería verse correctamente en GitHub, facilitando la lectura y comprensión de la información sobre los diferentes tipos de sistemas operativos y sus ejemplos asociados.
-
-
-Claro, aquí te proporciono la información organizada en formato markdown:
+Esta tabla presenta una estructura clara y organizada para comprender los diferentes tipos de sistemas operativos según sus características y ejemplos asociados.
 
 ### Procesos
 En la gestión de procesos, el comando comúnmente utilizado para ver la lista de procesos en sistemas tipo Unix/Linux es `ps -eaf`:
