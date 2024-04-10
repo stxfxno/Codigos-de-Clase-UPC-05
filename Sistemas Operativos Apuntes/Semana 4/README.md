@@ -170,3 +170,76 @@ Recuerda adaptar los comandos según la distribución específica de Linux que e
   - Contiki
 
 Este formato markdown debería verse correctamente en GitHub, facilitando la lectura y comprensión de la información sobre los diferentes tipos de sistemas operativos y sus ejemplos asociados.
+
+
+Claro, aquí te proporciono la información organizada en formato markdown:
+
+### Procesos
+En la gestión de procesos, el comando comúnmente utilizado para ver la lista de procesos en sistemas tipo Unix/Linux es `ps -eaf`:
+- `ps`: Muestra información sobre los procesos en ejecución.
+- `-e`: Muestra información sobre todos los procesos.
+- `-a`: Muestra los procesos de todos los usuarios.
+- `-f`: Muestra información detallada de cada proceso.
+
+Por ejemplo:
+```bash
+ps -eaf
+```
+Este comando muestra una lista detallada de todos los procesos en ejecución en el sistema.
+
+### Archivos
+En la manipulación de archivos, algunos comandos útiles incluyen:
+- `cp`: Copia archivos o directorios.
+- `mv`: Mueve (cambia el nombre de) archivos o directorios.
+- `rm`: Elimina (borra) archivos o directorios.
+
+Por ejemplo:
+```bash
+cp archivo.txt carpeta/
+mv archivo.txt nuevo_nombre.txt
+rm archivo.txt
+```
+Estos comandos son utilizados para realizar operaciones básicas de copiado, movimiento y eliminación de archivos en el sistema de archivos.
+
+### Espacio de Direcciones
+Para monitorear el espacio de direcciones y la memoria en el sistema, puedes utilizar comandos como:
+- `top`: Muestra una lista dinámica de los procesos en ejecución y la utilización de recursos del sistema.
+- `free -m`: Muestra la cantidad de memoria RAM disponible en el sistema en megabytes.
+
+Por ejemplo:
+```bash
+top
+free -m
+```
+Estos comandos son útiles para verificar el uso de CPU, memoria y otros recursos del sistema.
+
+### Protección
+Para administrar permisos y protección de archivos en sistemas Unix/Linux, se utilizan comandos como:
+- `chmod`: Cambia los permisos de acceso a archivos o directorios.
+- `chown`: Cambia el propietario y/o grupo de archivos o directorios.
+
+Por ejemplo:
+```bash
+chmod 755 archivo.sh
+chown usuario1 archivo.txt
+```
+Estos comandos son utilizados para controlar quién puede acceder, modificar o ejecutar archivos y directorios en el sistema.
+
+### Shell
+En cuanto a las interfaces de shell (intérpretes de comandos), algunos ejemplos comunes son:
+- `sh`: Shell estándar (Bourne shell).
+- `csh`: C shell.
+- `ksh`: Korn shell.
+- `bash`: Bourne Again shell (shell más comúnmente utilizado en sistemas Unix/Linux).
+
+Por ejemplo:
+```bash
+sh script.sh
+csh
+ksh
+bash
+```
+Estos son diferentes tipos de shells que proporcionan entornos interactivos para ejecutar comandos y scripts en el sistema operativo.
+
+Espero que esta explicación en formato markdown te haya sido útil para comprender mejor estos conceptos y comandos relacionados con los sistemas operativos Unix/Linux.
+
