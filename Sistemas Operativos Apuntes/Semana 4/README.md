@@ -135,7 +135,7 @@ Estos comandos son útiles para verificar el uso de CPU, memoria y otros recurso
 Para administrar permisos y protección de archivos en sistemas Unix/Linux, se utilizan comandos como:
 - `chmod`: Cambia los permisos de acceso a archivos o directorios.
 - `chown`: Cambia el propietario y/o grupo de archivos o directorios.
-
+- `rwx`: Nos permite saber si el archivo se puede Leer (read), Escribir (write), Ejecutar (Execute)
 Por ejemplo:
 ```bash
 chmod 755 archivo.sh
