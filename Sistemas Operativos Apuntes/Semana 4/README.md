@@ -6,11 +6,13 @@ Para instalar Apache en Linux y configurar un entorno LAMP (Linux, Apache, MySQL
 
 <h2>1. Instalación de Apache</h2>
 En distribuciones basadas en Debian (como Ubuntu):
+
 ```
 bash
 sudo apt update
 sudo apt install apache2
 ```
+
 En distribuciones basadas en Red Hat (como CentOS o Fedora):
 
 ```bash
