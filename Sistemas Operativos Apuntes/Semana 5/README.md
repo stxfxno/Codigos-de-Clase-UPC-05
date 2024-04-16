@@ -1,5 +1,3 @@
-Entiendo que deseas conectar una aplicación en una máquina virtual (por ejemplo, una instancia de Linux con Apache y PHP) a una base de datos MySQL que se encuentra en otra máquina virtual distinta. Aquí te guiaré a través de los pasos necesarios:
-
 ### Paso 1: Configurar la Máquina Virtual de Aplicación (Cliente)
 
 1. **Instalar Apache y PHP**:
@@ -19,6 +17,7 @@ Entiendo que deseas conectar una aplicación en una máquina virtual (por ejempl
 2. **Crear un usuario remoto en MySQL**:
    - Accede a MySQL desde la línea de comandos (`mysql -u root -p`) en el servidor.
    - Crea un nuevo usuario y otórgale privilegios adecuados para acceder desde la dirección IP de tu máquina virtual de aplicación:
+   - 
      ```sql
      CREATE USER 'tu_usuario'@'ip_de_tu_cliente' IDENTIFIED BY 'tu_contraseña';
      GRANT ALL PRIVILEGES ON tu_base_de_datos.* TO 'tu_usuario'@'ip_de_tu_cliente';
@@ -30,6 +29,7 @@ Entiendo que deseas conectar una aplicación en una máquina virtual (por ejempl
 1. **Crear el script PHP**:
    - Crea un archivo PHP en tu máquina virtual de aplicación para conectar y realizar consultas a la base de datos remota.
    - Utiliza la función `mysqli_connect` de PHP para establecer la conexión remota a MySQL:
+   - 
      ```php
      <?php
      $servername = 'ip_de_tu_servidor_mysql';
